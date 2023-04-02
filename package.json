@@ -1,0 +1,23 @@
+{
+  "name": "kinesis-console-consumer-v2",
+  "version": "1.0.0",
+  "description": "AWS Kinesis stream consumer for the console",
+  "main": "lib/index.js",
+  "author": "Asif Momin <asifdmomin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "bin": {
+    "kinesis-console-consumer": "./dist/index.js"
+  },
+  "keywords": [
+    "aws",
+    "kinesis",
+    "stream",
+    "cli"
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.3"
+  }
+}
