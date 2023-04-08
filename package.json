@@ -2,14 +2,14 @@
   "name": "kinesis-console-consumer-v2",
   "version": "1.0.0",
   "description": "AWS Kinesis stream consumer for the console",
-  "main": "lib/index.ts",
+  "main": "src/index.ts",
   "author": "Asif Momin <asifdmomin@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write .",
     "test": "jest",
-    "cli": "yarn ts-node ./lib/index.ts"
+    "cli": "yarn ts-node src/index.ts"
   },
   "files": [
     "lib/"
@@ -27,12 +27,15 @@
     "@commander-js/extra-typings": "^10.0.3",
     "@jest/globals": "^29.5.0",
     "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
     "@typescript-eslint/eslint-plugin": "^5.57.0",
     "@typescript-eslint/parser": "^5.57.0",
+    "aws-sdk-client-mock": "^2.1.1",
     "commander": "^10.0.0",
     "eslint": "^8.37.0",
     "eslint-config-prettier": "^8.8.0",
     "jest": "^29.5.0",
+    "jest-mock-extended": "^3.0.4",
     "prettier": "^2.8.7",
     "ts-jest": "^29.1.0",
     "ts-node": "^10.9.1",
